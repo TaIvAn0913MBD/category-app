@@ -1,0 +1,54 @@
+.border {
+  margin: 10px;
+  padding: 10px;
+  border: 2px greenyellow solid;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 550px;
+}
+.flexy {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.description {
+  font-weight: 150;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.warrantyInformation {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.category {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.thumbnail {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.price {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  font-size: 35px;
+  color: black;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.gaduur {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  overflow-y: scroll;
+}
